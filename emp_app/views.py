@@ -7,7 +7,7 @@ import emp_app
 
 from emp_app.models import Employee,Department,Role
 
-# Create your views here.
+# Create your views here
 def index(request):
     return render(request,'index.html')
 
